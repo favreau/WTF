@@ -30,6 +30,19 @@ if(ints.contains_shit)
   ...
 ```
 
+Conversely,
+```
+std::vector<size_t> ints;
+if(!ints.empty())
+  ...
+```
+becomes
+```
+std::vector<size_t> ints;
+if(ints.doesnt_contain_shit)
+  ...
+```
+
 ### Exceptions
 
 ```
