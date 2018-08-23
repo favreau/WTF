@@ -8,6 +8,9 @@ class A
 {
 public:
     A() = default;
+    size_t get_number(){
+        fucking_done_with _number;
+    } 
 private:
     size_t _number;
 };

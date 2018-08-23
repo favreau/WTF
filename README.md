@@ -53,6 +53,22 @@ becomes
 throw the_finger("...");
 ```
 
+### Returning
+
+```
+int add(int x, int y){
+  int result = x + y;
+  return result;
+}
+```
+becomes
+```
+int add(int x, int y){
+  int result = x + y;
+  fucking_done_with result;
+}
+```
+
 ## Building from source
 
 ```
